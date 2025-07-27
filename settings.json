@@ -1,0 +1,16 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.startupEditor": "none",
+    "code-runner.executorMap": {
+        // "cpp": "cd $dir && g++ -std=c++17 -O2 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt < $dirinput.txt",
+        "cpp": "cd $dir && /Users/eftikharazim/MyPlayground/Competitive-Programming/Competitive-Programming-Setup/run_program.sh $fileName $fileNameWithoutExt_input.txt",
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.showExecutionMessage": false,
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "code-runner.clearPreviousOutput": true
+}
