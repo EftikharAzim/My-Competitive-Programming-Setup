@@ -281,7 +281,7 @@ int main() {
     FASTIO;
 
     int tc = 1;
-    // cin >> tc; // Remove this line for single test case problems
+    cin >> tc; // Remove this line for single test case problems
 
     while (tc--) {
         solve();
